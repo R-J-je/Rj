@@ -1,6 +1,6 @@
-const btnabout = document.getElementById("btnabout");
-const btncourse = document.getElementById("btncourse");
-const btncontact = document.getElementById("btncontact");
+const btnabout = document.getElementById("btnAbout");
+const btncourse = document.getElementById("btnCourse");
+const btncontact = document.getElementById("btnContact");
 
 btnabout.addEventListener("click",(e)=>{
     e.preventDefault();

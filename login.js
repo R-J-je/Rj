@@ -5,9 +5,9 @@ const password = document.getElementById("password");
 btn.addEventListener("click", (e) => {
     e.preventDefault();
     if(username.value == "pass" && password.value == "word"){
-        alert ("Successful Login");
+        alert ("Task Failed Succcessfully");
         window.location.href = "main.html";
     }else{
-        alert("Error");
+        alert("Wrong Pass or Username mo Boi");
     }
 })
